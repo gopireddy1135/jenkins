@@ -1,5 +1,7 @@
 # CI/CD Jenkins Pipeline with Code Coverage support
 
+Create a Jenkins Pipeline project in Jenkins and Configure this repo in SCM configurations. It will automatically read Jenkinsfile from repo and build will be initialized as per the Jenkinsfile code.
+
 In this Repo we have sample java source code which is built up using maven scripts. We also have junit unit test cases suit in repo which is executed in seperate stages. We have also included sonar code analysis to the pipeline so that we can have a automative process in which if code coverage is more than 50 % ( This can be modified) we are proceeding with deployment otherwise we are simply breaking the jenkins build. We have below stages which are working in this complete CI/CD process.
 
 Stage Checkout Code
